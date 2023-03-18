@@ -16,7 +16,7 @@ This repository contains experiments to reproduce the results of the paper [Boun
 
 ## Visualization
 
-See a visualization of the objects getting detected using this [app](https://souradipp76-object-detection-kl-app-app-v5thmx.streamlit.app/).
+See a visualization of the objects getting detected using this [app](https://object-detection-kl.streamlit.app).
 
 ## Contributing
 
