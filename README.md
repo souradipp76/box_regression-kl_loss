@@ -3,9 +3,31 @@
 ## Introduction
 This repository contains experiments to reproduce the results of the paper [Bounding Box Regression with Uncertainty for Accurate Object Detection (He et al.)](https://openaccess.thecvf.com/content_CVPR_2019/papers/He_Bounding_Box_Regression_With_Uncertainty_for_Accurate_Object_Detection_CVPR_2019_paper.pdf). For more details, check out this [report](report.pdf) / [slides](slides.pptx) / [presentation](https://youtu.be/2Mfxi8NbSPo).
 
+<figure style="display: inline-block;">
+    <img src='outputs/input.png' width="200" height="200"/>
+    <figcaption style="text-align: center;">Ground Truth<br>PASCAL-VOC Image</figcaption>
+</figure>
+<figure style="display: inline-block;">
+    <img src='outputs/output_wo_kl.png' width="200" height="200"/>
+    <figcaption style="text-align: center;">Object Detection with<br>Faster-RCNN-Resnet50-FPN</figcaption>
+</figure>
+<figure style="display: inline-block;">
+    <img src='outputs/output_with_kl.png' width="200" height="200" />
+    <figcaption style="text-align: center;">Object Detection with <br>Faster-RCNN-Resnet50-FPN + KL Loss</figcaption>
+</figure>
+
 ## Running Experiments
-- Run the notebook file `kl_loss_MMDet.ipynb` with CPU configuration and follow the instructions in the file.
-- Run the notebook file `kl_loss_pytorch.ipynb` and follow the instructions in the file. Note that Google Drive has been linked to the notebook for data and output storage.
+- Run the notebook file `kl_loss_MMDet.ipynb` with CPU configuration and follow the instructions in the file.  
+<a src="https://colab.research.google.com/assets/colab-badge.svg" href="https://colab.research.google.com/github/souradipp76/box_regression-kl_loss/blob/main/kl_loss_MMDet.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
+
+- Run the notebook file `kl_loss_pytorch.ipynb` and follow the instructions in the file. Note that Google Drive has been linked to the notebook for data and output storage. 
+<a src="https://colab.research.google.com/assets/colab-badge.svg" href="https://colab.research.google.com/github/souradipp76/box_regression-kl_loss/blob/main/kl_loss_pytorch.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
+
+## Visualization
+
+See a visualization of the objects getting detected using this [app](https://souradipp76-object-detection-kl-app-app-v5thmx.streamlit.app/).
 
 ## Contributing
 
