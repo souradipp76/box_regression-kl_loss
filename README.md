@@ -7,11 +7,11 @@ This repository contains experiments to reproduce the results of the paper [Boun
 
 ## Running Experiments
 - Run the notebook file `kl_loss_MMDet.ipynb` with CPU configuration and follow the instructions in the file.  
-<a src="https://colab.research.google.com/assets/colab-badge.svg" href="https://colab.research.google.com/github/souradipp76/box_regression-kl_loss/blob/main/kl_loss_MMDet.ipynb">
+<a src="https://colab.research.google.com/assets/colab-badge.svg" href="https://colab.research.google.com/github/souradipp76/box_regression-kl_loss/blob/main/kl_loss_MMDet.ipynb" target="_blank" rel="noopener noreferrer">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
 
 - Run the notebook file `kl_loss_pytorch.ipynb` and follow the instructions in the file. Note that Google Drive has been linked to the notebook for data and output storage. 
-<a src="https://colab.research.google.com/assets/colab-badge.svg" href="https://colab.research.google.com/github/souradipp76/box_regression-kl_loss/blob/main/kl_loss_pytorch.ipynb">
+<a src="https://colab.research.google.com/assets/colab-badge.svg" href="https://colab.research.google.com/github/souradipp76/box_regression-kl_loss/blob/main/kl_loss_pytorch.ipynb" target="_blank" rel="noopener noreferrer">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
 
 ## Visualization
